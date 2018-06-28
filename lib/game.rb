@@ -69,7 +69,8 @@ class Game
     if won?
       puts "Congratulations #{winner}!"
     elsif draw?
-      puts "Cat's Game!"
+      1.times do puts "Cat's Game!"
+      end
     end
   end
 
