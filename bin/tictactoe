@@ -19,4 +19,5 @@ play_again = ""
   if !game.won?
     game.play
   end
+  play_again
 end
